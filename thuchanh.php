@@ -8,6 +8,7 @@ for ($i = 1; $i <= 10; $i++) {
 }
 echo "<br><br>";
 
+
 // Câu 2: Kiểm tra số nguyên tố
 $n = 7;
 $lasonguyento = true;
@@ -27,6 +28,7 @@ if ($lasonguyento == true) {
 } else {
     echo $n . " không phải là số nguyên tố.<br><br>";
 }
+
 
 // Câu 3: Hàm inHinhchunhat
 function inHinhChuNhat($chieurong, $chieucao) {
